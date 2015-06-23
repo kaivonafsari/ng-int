@@ -19,7 +19,7 @@ class Controller {
 
 function _init() {
     this.rawMessage = 'Welcome to your Lumiata Interview';
-    this.rawImage = 'content/images/image.png'
+    this.rawImage = 'content/images/dude.gif'
 }
 
 Controller.$inject = ['$scope', '$state'];
