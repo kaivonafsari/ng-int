@@ -1,0 +1,15 @@
+node_modules/
+app/lib/
+.idea/
+.DS_Store/*
+.DS_Store
+logs/*
+!.gitkeep
+.tmp/*
+ehthumbs.db
+Icon?
+Thumbs.db
+dist/
+.sass-cache
+_forever/
+bower_components/

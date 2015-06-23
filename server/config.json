@@ -1,0 +1,10 @@
+{
+  "production": {
+    "port": 7000,
+    "mongo": "mongodb://@localhost:27017/lumiata_interview"
+  },
+  "development": {
+    "port": 8001,
+    "mongo": "mongodb://@localhost:27017/lumiata_interview"
+  }
+}
