@@ -16,7 +16,6 @@ class Controller {
     }
 }
 
-
 function _init() {
     this.rawMessage = 'Welcome to your Lumiata Interview';
     this.rawImage = 'content/images/dude.gif'

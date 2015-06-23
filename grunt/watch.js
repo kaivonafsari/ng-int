@@ -29,18 +29,18 @@ module.exports = function(grunt) {
             tasks: ['babel:dev']
         },
         css: {
-            files: ['<%= config.app %>/styles/{,*/}*.css'],
+            files: ['<%= config.app %>/styles/**/{,*/}*.css'],
             tasks: ['copy:dev'],
             options: {
                 livereload: true
             }
         },
         sass: {
-            files: '<%= config.app %>/styles/sass/{,*/}*.{scss,sass}',
+            files: '<%= config.app %>/styles/sass/**/{,*/}*.{scss,sass}',
             tasks: ['sass:dev']
         },
         html: {
-            files: ['<%= config.app %>/{,*/}*.html'],
+            files: ['<%= config.app %>/**/{,*/}*.html'],
             tasks: ['html2js', 'processhtml:dev', 'copy:dev'],
             options: {
                 livereload: true
