@@ -25,7 +25,8 @@ require.config({
         'angular-animate': 'lib/angular-animate/angular-animate',
         'angular-ui-utils': 'lib/angular-ui-utils/ui-utils',
         'angular-scroll': 'lib/angular-scroll/angular-scroll.min',
-        'app.templates': 'src/__templates/__templates'
+        'app.templates': 'src/__templates/__templates',
+        'Dijkstras': 'src/algorithms/Dijkstras'
     },
     packages: [
         {
