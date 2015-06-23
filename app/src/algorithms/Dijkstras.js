@@ -1,7 +1,7 @@
 define(function(require, exports, module) {
     'use strict';
 
-    var BinaryHeap = require('./BinaryHeap');
+    var BinaryHeap = require('src/algorithms/BinaryHeap');
 
     function Dijkstras(graphObject) {
         var graph = graphObject;

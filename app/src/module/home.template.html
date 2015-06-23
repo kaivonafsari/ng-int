@@ -1,3 +1,10 @@
 <h1>{{home.message()}}</h1>
 
-<img ng-src='{{home.rawImage}}' />
+<div class="text-center">
+    <h1 class="text-center">The shortest path between node <code>0</code> and <code>3</code></h1>
+    <img ng-src='{{home.rawImage}}' style="width: 800px"/>
+
+    <h3>is <code>{{home.shortestPath}}</code> with a length of <code>{{home.shortestPathDistance}}</code></h3>
+
+    <p>This should give you an idea of how to use Dijkstra's. Best of luck!</p>
+</div>
